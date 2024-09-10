@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="resume cv">
+    <meta name="descriptions" content="Сайт визитка - резюме">
+    <link rel="stylesheet" href="styles.css">
+    <title>Resume</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="info">
+            <img src="Me.jpg" alt="Чекаленко Юрий" class="avatar">
+            <div class="info-text">
+                <h1>Юрий Чекаленко </h1>
+
+                <p>Я Front-end разработчик, создание сайтов и веб приложений мой конек </p>
+                <p>Я люблю путешествовать <strong>получаю удовольствие от программирование,</strong> <em>свободы. </em>И
+                    денег ХD
+                </p>
+
+                <br>
+                <h3>Мои социальные сети:</h3>
+                | <strong> <a href="mailto:y.chekalenko@inbox.ru" target="_blank">Mail</a></strong>
+                |<strong>
+                    <a href="https://t.me/user_blessed" target="_blank"> Telegram</a></strong> |
+            </div>
+        </div>
+        <div class="card bg-green">
+            <h2>Мои хобби</h2>
+            <ol class="list">
+                <li>Путешествия</li>
+                <li>YouTube</li>
+                <li>Ходьба</li>
+                <li>ММА</li>
+            </ol>
+        </div>
+        <div class="card bg-red">
+            <h2>Опыт работы</h2>
+            <table class="table">
+                <!-- <thead>
+                    <tr>
+                        <td>Название</td>
+                        <td>Должность</td>
+                        <td>Год</td>
+                    </tr>
+                </thead> -->
+                <tbody>
+                    <tr>
+                        <td>ГК Меломан</td>
+                        <td>Продавец-консультант</td>
+                        <td>2017-2019</td>
+                    </tr>
+                    <tr>
+                        <td>ГК Меломан</td>
+                        <td>Администратор теннисного клуба</td>
+                        <td>2019-2020</td>
+                    </tr>
+                    <tr>
+                        <td>ГК Меломан</td>
+                        <td>Инженер технической поддержки</td>
+                        <td>2020-2024</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="card bg-yellow">
+            <h2>Образование</h2>
+            <ul class="link-list">
+                <li><a href="https://result.school/" target="_blank">Result University Front-end разработчик</a></li>
+                <li><a href="https://itlogia.ru/" target="_blank">Айтилогия Frontend-разработчик</a></li>
+            </ul>
+        </div>
+
+        <div class="card ">
+            <form action="" class="form">
+                <h2>Связаться со мной</h2>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="name">Ваше имя:</label>
+                        <input type="text" id="name" placeholder="Введите ваше имя">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Ваш email:</label>
+                        <input type="text" id="email" placeholder="Введите ваш email">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="message">Ваше сообщение:</label>
+                    <textarea id="message" cols="20" rows="5" placeholder="Введите сообщение..."></textarea>
+                </div>
+                <input class="btn" type="submit" value="Отправить!">
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
